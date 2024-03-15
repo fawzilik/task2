@@ -1,0 +1,1515 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(41, 41, 41);
+    height: 70px;
+}
+
+.navbar {
+    
+    margin-right: 130px;
+}
+
+.logo {
+    
+    margin-left: 95px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 15px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    
+}
+
+.navbar i {
+    margin-left: -8px;
+    color: aqua;
+    font-size: 15px;
+}
+
+.logo h1 {
+    color: aqua;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.logo h4 {
+    color: white;
+    font-size: 4px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/* end of nav */
+header {
+    height: 90vh;
+    background-color: rgba(0,0,0,1);
+background-image: linear-gradient(90deg, rgba(0,0,0,.2) 1%, rgba(44,118,93,.5) 100%, rgba(61,169,118,1) 100%), url(task2/portrait.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 40%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.photo {
+
+    overflow: hidden;
+}
+
+.photo img {
+    width: 90vh;
+    height: 100vh;
+    margin-top: 1px;
+    opacity: 0.90;
+}
+
+.text {
+    word-spacing: 3px;
+
+    margin-top: 110px;
+}
+
+.text h4 {
+    color: aqua;
+    margin-left: 80px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+}
+
+.text h1 {
+    color: white;
+    margin-left: 80px;
+    margin-top: 5px;
+
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+}
+
+.hr {
+    border-radius: 30px;
+    width: 65px;
+    color: aqua;
+    outline: none;
+    height: 3px;
+    border: none;
+    margin-left: 80px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.text a {
+    text-decoration: none;
+    color: aqua;
+    margin-left: 1px;
+}
+
+.hr {
+    background-color: aqua;
+}
+
+.text P {
+    margin-left: 80px;
+    margin-bottom: 10PX;
+    color: white;
+    font-size: 14PX;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.play {
+    display: flex;
+    margin-left: 80px;
+}
+
+.play i {
+    margin-right: 15px;
+    color: white;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    padding: 10px 10px 10px 12px;
+    background-color: aqua;
+    /* box-shadow: 0px 0px 1px 6px aqua;
+*/
+}
+
+.play h2 {
+    color: white;
+    font-size: 14PX;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.hr2 {
+    border-radius: 30px;
+    width: 65px;
+    color: aqua;
+    outline: none;
+    height: .5px;
+    border: none;
+    background-color: white;
+    margin: 12px 0px;
+}
+
+.about {
+    position: absolute;
+    left: 55px;
+}
+
+.play p {
+    font-size: 10px;
+    color: aqua;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/* end of part 1 */
+.section1 {
+    height: 90vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.font {
+    margin-top: 95px;
+    margin-left: 55px;
+}
+
+.font h3 {
+    color: aqua;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.font h1 {
+    color: white;
+    font-size: 35px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.hr3 {
+    border-radius: 100px;
+    width: 65px;
+    color: aqua;
+    outline: none;
+    height: 2px;
+    border: none;
+    margin-left: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: aqua;
+}
+
+.font a {
+    text-decoration: none;
+    color: aqua;
+}
+
+.font p {
+    color: rgb(80, 78, 78);
+    font-size: 12px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.font button {
+    color: white;
+    background-color: aqua;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.photo-b {
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo-b img {
+    width: 50px;
+    height: 50px;
+}
+
+.st1 {
+    
+    width: 300px;
+    height: 200px;
+    background-color: rgb(15, 15, 15);
+    margin-top: 60px;
+    margin-right: 25px;
+
+}
+
+.st1 img {
+    margin-left: 105px;
+    margin-top: 15px;
+    width: 70px;
+    height: 70px;
+}
+
+.st1 h2 {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.st1 p {
+    text-align: center;
+    color: white;
+    margin-top: 7px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.st2 {
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    background-color: rgb(15, 15, 15);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8631827731092436) 41%, rgba(0, 218, 146, 0.9612219887955182) 100%);
+}
+
+.st2 img {
+    margin-left: 105px;
+    margin-top: 15px;
+    width: 70px;
+    height: 70px;
+}
+
+.st2 h2 {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.st2 p {
+    text-align: center;
+    color: white;
+    margin-top: 7px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.st3 {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(15, 15, 15);
+    margin-top: 80px;
+    margin-right: 60px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8631827731092436) 41%, rgba(0, 218, 146, 0.9612219887955182) 100%);
+}
+
+.st3 img {
+    margin-left: 105px;
+    margin-top: 15px;
+    width: 70px;
+    height: 70px;
+}
+
+.st3 h2 {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.st3 p {
+    text-align: center;
+    color: white;
+    margin-top: 7px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.st4 {
+   
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    background-color: rgb(15, 15, 15);
+    background-color: black;
+}
+
+.st4 img {
+    margin-left: 105px;
+    margin-top: 15px;
+    width: 70px;
+    height: 70px;
+}
+
+.st4 h2 {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.st4 p {
+    text-align: center;
+    color: white;
+    margin-top: 7px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/* end of sec 2 */
+.section2 {
+    height: 90vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.photo-2 {
+    
+    margin-left: 70px;
+}
+
+.photo-2 img {
+    height: 100%;
+    width: 440px;
+}
+
+.small-photo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.small-photo .wah {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-in {
+    margin-left: -68px;
+}
+
+.text-in h1 {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.text-in p {
+    margin-top: 10px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.wah img {
+    width: 50px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.wah {
+    margin-top: 15px;
+
+}
+
+.text h3 {
+    color: aqua;
+    margin-left: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 9px;
+}
+
+.text h1 {
+    font-size: 36px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+}
+
+.hr4 {
+    border-radius: 30px;
+    width: 65px;
+    color: aqua;
+    outline: none;
+    height: 3px;
+    border: none;
+    margin-left: 80px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: aqua;
+}
+
+.text P {
+    color: GRAY;
+    font-size: 12px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.section3 {
+    height: 30vh;
+    background-image: linear-gradient(257deg, rgba(0, 0, 0, 0.8) 41%, rgba(0, 218, 146, 0.76234243697479) 100%), url(task2/1.jpg);
+    background-attachment: scroll;
+    background-position: right;
+    background-size: 100% 480PX;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    /* background: rgb(0,0,0);
+    background: linear-gradient(257deg, rgba(0,0,0,0.8631827731092436) 41%, rgba(0,218,146,0.76234243697479) 100%); */
+}
+
+.section3 div img {
+    width: 65px;
+    margin-top: 45px;
+}
+
+.section3 div h1 {
+    margin-left: 10px;
+    color: aqua;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.section3 div p {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.section3 div a {
+    text-decoration: none;
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+}
+
+/* end */
+.section4 {
+    background-color: black;
+    height: 110vh;
+    display: flex;
+    flex-wrap: wrap;
+
+    overflow: hidden;
+}
+
+.sec-container div {
+    display: flex;
+}
+
+.sec-container {
+    margin-top: 30px;
+    width: 770PX;
+    height: 300px;
+    margin-left: 120px;
+
+}
+
+.sec-container img {
+    width: 290px;
+    height: 290px;
+}
+
+.sec-container h2 {
+    color: aqua;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.sec-container h1 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sec-container a {
+    text-decoration: none;
+    color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sec-container p {
+    color: GRAY;
+    font-size: 12px font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.sec-container div p {
+    color: white;
+    margin-top: 20px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.sec-container div i {
+    color: aqua;
+    margin-top: 22px;
+    margin-right: 10px;
+}
+
+.sec-container-te {
+    margin-top: 30px;
+    margin-left: 10px;
+    display: flex;
+    width: 310px;
+    height: 300px;
+}
+
+.sec-container-te img {
+    width: 290px;
+    height: 290px;
+    margin-top: 0px;
+}
+
+.thi-container-te {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+
+}
+
+.thi-container-te img {
+    width: 290px;
+    height: 290px;
+    margin-right: 100px;
+    border: none;
+    outline: none;
+}
+
+/* end */
+.section5 {
+    height: 25vh;
+    background-image: linear-gradient(90deg, rgba(0,0,0,.8) 35%, rgba(44,118,93,1) 100%, rgba(61,169,118,1) 100%),url(task2/side-view-portrait-of-a-woman-with-make-up-CTUMAUJ.jpg);
+    background-attachment: scroll;
+    background-position: right;
+    background-size: 100% 480PX;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section5 div img {
+    width: 267px;
+    margin-top: 30px;
+}
+
+.section6 {
+    height: 105vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.section6 .first-div {
+    margin-top: 60px;
+    margin-left: 140px;
+    width: 120vh;
+}
+
+.section6 .first-div h3 {
+    color: aqua;
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.section6 .first-div h1 {
+    color: white;
+    font-size: 40px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+}
+
+.lalaland {
+    margin-top: 70px;
+
+    display: flex;
+}
+
+.lalaland img {
+    width: 560px;
+    height: 280px;
+}
+
+.lalaland i {
+    position: absolute;
+    margin-left: 245px;
+    margin-top: 110px;
+    padding: 20px;
+    border: 2px white solid;
+    border-radius: 50%;
+}
+
+.first-div a {
+    text-decoration: none;
+    color: aqua;
+}
+
+.section6 div {
+    background-color: rgb(0, 0, 0);
+}
+
+.second-div {
+    margin-left: -15px;
+    margin-top: 120px;
+}
+
+.second-div .p1 {
+    color: GRAY;
+    margin-bottom: 35px;
+    font-size: 13px
+}
+
+.second-div p {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.vid-play {
+    display: flex;
+
+}
+
+.vid-play i {
+    margin-right: 15px;
+    padding: 2px;
+    border: 2px aqua solid;
+    border-radius: 50%;
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+
+.vid-play p {
+    margin-top: 3px;
+    color: white;
+    font-size: 15px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.vid-play2 {
+
+    margin-top: 75px;
+}
+
+.vid-play2 img {
+    width: 530px;
+    height: 280px;
+}
+
+.vid-play2 i {
+    position: absolute;
+    right: 0px;
+    margin-right: 315px;
+    margin-top: 110px;
+    z-index: 11;
+    padding: 20px;
+    border: 2px white solid;
+    border-radius: 50%;
+}
+
+/* end end end end end end */
+.section7 {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.first-half {
+    height: 30vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(51, 50, 50, 0.7)), url(task2/Bg-1.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 545px;
+}
+
+.first-half h3 {
+    color: aqua;
+    font-size: 12px;
+    letter-spacing: 3px;
+    padding-top: 15px;
+    margin-bottom: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+
+.first-half h1 {
+    color: white;
+    font-size: 12px font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-align: center;
+}
+
+span {
+    color: aqua;
+}
+
+.hr5 {
+    border-radius: 30px;
+    width: 65px;
+    color: aqua;
+    outline: none;
+    height: 3px;
+    border: none;
+    margin-left: 640px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: aqua;
+}
+
+.first-half p {
+    text-align: center;
+    color: GRAY;
+    font-size: 12px font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.second-half {
+    height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(51, 50, 50, 0.7)), url(task2/Bg-1.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 575px;
+}
+
+.second-half-1 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.second-half-2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.st11 {
+    padding: 15px;
+    display: flex;
+    border: 1px solid rgb(53, 52, 52);
+    background-color: rgb(53, 52, 52);
+}
+
+.st11 h1 {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.st11 h3 {
+    color: aqua;
+    margin-top: 8px;
+    margin-bottom: 18px;
+    font-size: 14px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.st11 p {
+    color: gray;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.ii {
+    margin-left: -25px;
+}
+
+.st11 i {
+    color: aqua;
+    margin-left: 19px;
+}
+
+.st11 img {
+    width: 150px;
+    position: relative;
+    bottom: 35px;
+    margin-right: 15px;
+
+}
+
+.st22 {
+    display: flex;
+}
+
+.st22 {
+    padding: 15px;
+    display: flex;
+    border: 1px solid rgb(53, 52, 52);
+    background-color: rgb(53, 52, 52);
+}
+
+.st22 h1 {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.st22 h3 {
+    color: aqua;
+    margin-top: 8px;
+    margin-bottom: 18px;
+    font-size: 14px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.st22 p {
+    color: gray;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.ii {
+    margin-left: -25px;
+}
+
+.st22 i {
+    color: aqua;
+    margin-left: 19px;
+}
+
+.st22 img {
+    width: 150px;
+    position: relative;
+    bottom: 35px;
+    margin-right: 5px;
+}
+
+.st33 {
+    display: flex;
+}
+
+.st33 {
+    padding: 15px;
+    display: flex;
+    border: 1px solid rgb(53, 52, 52);
+    background-color: rgb(53, 52, 52);
+}
+
+.st33 h1 {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.st33 h3 {
+    color: aqua;
+    margin-top: 8px;
+    margin-bottom: 18px;
+    font-size: 14px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.st33 p {
+    color: gray;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.ii {
+
+
+    margin-left: -25px;
+}
+
+.st33 i {
+    color: aqua;
+    margin-left: 19px;
+}
+
+.st33 img {
+    width: 150px;
+    position: relative;
+    bottom: 35px;
+    margin-right: 5px;
+}
+
+.st44 {
+    display: flex;
+}
+
+.st44 {
+    padding: 15px;
+    display: flex;
+    border: 1px solid rgb(53, 52, 52);
+    background-color: rgb(53, 52, 52);
+}
+
+.st44 h1 {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.st44 h3 {
+    color: aqua;
+    margin-top: 8px;
+    margin-bottom: 18px;
+    font-size: 14px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.st44 p {
+    color: gray;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.ii {
+
+
+    margin-left: -25px;
+}
+
+.st44 i {
+    color: aqua;
+    margin-left: 19px;
+}
+
+.st44 img {
+    width: 150px;
+    position: relative;
+    bottom: 35px;
+    margin-right: 5px;
+}
+
+.section8 {
+    height: 160vh;
+    background-color: black;
+    overflow: hidden;
+}
+
+.first-2 h3 {
+    text-align: center;
+    margin-left: 10px;
+    color: aqua;
+    font-size: 12px;
+    letter-spacing: 3px;
+    padding-top: 40px;
+    margin-bottom: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.first-2 h1 {
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+}
+
+.first-2 p {
+
+    margin-left: 20px;
+    text-align: center;
+    color: GRAY;
+    font-size: 12px font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.wrab {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 120vh;
+    margin-left: 300px;
+    margin-top: 15px;
+}
+
+.wrab img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.section9 {
+    height: 60vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(task2/adadad.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 90%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.section9-2 {
+    width: 95vh;
+    height: 30vh;
+    margin-top: 130px;
+    margin-right: 25px;
+    border: 1px solid rgb(34, 33, 33);
+    background-color: rgb(78, 76, 76);
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: saturate(180%) blur(12px);
+
+}
+
+.section9-2 p {
+    margin-bottom: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: GRAY;
+    font-size: 15px
+}
+
+.section9-2 img {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-left: 15px;
+}
+
+.john {
+    display: flex;
+
+}
+
+.john h1 {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.john h3 {
+    color: aqua;
+    margin-left: 15px;
+    font-size: 14px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.section9-2 i {
+    color: aqua;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-left: 350px;
+}
+
+.section10 {
+    height: 110vh;
+    background-color: black;
+    overflow: hidden;
+    
+}   
+.flex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    
+}
+.flex-1{
+    
+}
+.flex-1 img{
+    height:200px ;
+    width: 100%;
+}
+.flex-1 h1{
+    color: aqua;
+
+}
+.flex-1 p{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    color: gray;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    
+}
+.ii2{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.ii3{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.ii2 i{
+    color: aqua;
+    margin-left: 10px;
+}
+.ii3 i{
+    color: aqua;
+    margin-left: 20px;
+}
+.ii2 p{
+    margin-top:-1px;
+    margin-left: 10px;
+}
+.ii3 p{
+    margin-top:-1px ;
+    margin-left: 10px;
+}
+.big-1{
+    display: flex;
+}
+/* emd edm edme demd  */
+.section11{
+    height: 80vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.section11 .contact{
+    border: 2px solid aqua;
+    height: 400px;
+    width: 380px;
+    margin-left: 190px;
+    margin-top: 30px;
+}
+.contact input{
+    width: 360px;
+    height: 35px;
+    background: rgba(27, 26, 26, 0.9);
+    border: 1px solid aquamarine;
+}
+.contact table label{
+    color: aqua;
+    font-size: 12px;
+    
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+}
+.contact textarea{
+    width: 360px;
+    height: 105px;
+    background: rgba(27, 26, 26, 0.9);
+    border: 1px solid aquamarine;
+}
+.tr1{
+   
+    padding-top:10px ;
+    padding-left: 4px;
+}
+.tr2{
+    
+    padding: 1px 4px 1px 4px;
+
+}
+.tr2 input:focus{
+    color: white;
+}
+.tr2 textarea:focus{
+    color: white;
+}
+.button{
+    padding: 10px 160px;
+    background-color:aqua ;
+    border: none;
+    margin-left: 7px;
+    border-radius: 5px;
+}
+.font7{
+   
+    margin-right: 240px;
+    margin-top: 55px;
+}
+.font7 h3 {
+    color: aqua;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+}
+.font7 h1 {
+    color: white;
+    font-size: 35px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.font7 a {
+    text-decoration: none;
+    color: aqua;
+}
+.font7 p {
+    color: rgb(182, 175, 175);
+    font-size: 12px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.hr7 {
+    border-radius: 100px;
+    width: 75px;
+    color: aqua;
+    outline: none;
+    height: 2px;
+    border: none;
+    margin-left: 3px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: aqua;
+}
+.s1{
+    display: flex;
+}
+.s1 i{
+    color: aqua;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.last-font h1{
+    color: white;
+    font-size: 25px;
+    margin-top: 25px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.last-font p{
+    color: aqua;
+    margin-top: 10px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.section12{
+    height: 75vh;
+    background: rgb(44,118,93);
+    background: radial-gradient(circle, rgba(44,118,93,1) 0%, rgba(61,169,118,1) 0%, rgba(0,0,0,1) 68%);
+}
+.text-last{
+   text-align: center; 
+}
+.text-last h1{
+    color: aqua;
+    padding-top: 50px;
+    font-size: 65px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.text-last h4{
+    color: rgb(189, 181, 181);
+    font-size: 14px;
+    margin-bottom: 55px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.text-last a{
+    text-decoration: none;
+    color: aqua;
+    padding-right: 18px;
+    font-size: 15px;
+    font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.text-last p{
+    color: white;
+    margin-top: 70px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.text-last i{
+    color: aqua;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+.footer P{
+    color: gray;
+    font-size: 15px;
+}
